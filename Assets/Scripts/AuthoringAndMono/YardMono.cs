@@ -22,6 +22,7 @@ public class YardMono : MonoBehaviour
                     arrowPrefab = GetEntity(authoring.arrowPrefab, TransformUsageFlags.Dynamic),
                     filedSize = authoring.filedSize,
                     arrowsAmount = authoring.arrowsAmount,
+                    filedCenter = authoring.transform.position
                 });
 
             AddComponent (entity, 
